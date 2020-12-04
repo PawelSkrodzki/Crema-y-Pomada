@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#main-container {
+  height: 200vh;
+  background-color: #eadbdb;
+}
+
+.header-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+  padding: 16px;
+}
+
+.header-list li {
+  padding-top: 16px;
+}
+
+.header-list li p,
+.header-list li a {
+  font-size: 15px;
+  line-height: 16, 98px;
+  color: white;
+  font-family: "Overpass", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.header-list li .time-paragraph {
+  height: 20px;
+}
+
+.header-list li .time-paragraph #time {
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+  line-height: 16, 98px;
+  color: white;
+}
+
+.big-title {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.central-photo {
+  position: absolute;
+  left: 50%;
+  bottom: -50vh;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  width: 124px;
+}
+
+@media (min-width: 768px) {
+  .central-photo {
+    width: 230px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 12px 50px;
+  }
+  .header-list li:not(:first-child) {
+    padding-left: 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header-list li:not(:first-child) {
+    padding-left: 107px;
+  }
+}
+/*# sourceMappingURL=style.min.css.map */
