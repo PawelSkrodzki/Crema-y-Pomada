@@ -19,11 +19,11 @@
       -ms-flex-direction: column;
           flex-direction: column;
   list-style-type: none;
-  padding: 16px;
+  padding: 12px;
 }
 
 .header-list li {
-  padding-top: 16px;
+  padding-bottom: 12px;
 }
 
 .header-list li p,
@@ -40,7 +40,8 @@
   height: 20px;
 }
 
-.header-list li .time-paragraph #time {
+.header-list li .time-paragraph #time,
+.header-list li .time-paragraph #date {
   font-size: 15px;
   font-family: "Overpass", sans-serif;
   line-height: 16, 98px;
@@ -75,10 +76,13 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding: 12px 50px;
+    padding: 12px;
   }
   .header-list li:not(:first-child) {
     padding-left: 70px;
+  }
+  .central-photo {
+    bottom: -45vh;
   }
 }
 
