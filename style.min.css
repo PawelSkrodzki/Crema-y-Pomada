@@ -1,3 +1,8 @@
+@font-face {
+  src: url(fonts/GT-America-Extended-Regular.ttf);
+  font-family: GT-America;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +36,7 @@
   font-size: 15px;
   line-height: 16, 98px;
   color: white;
-  font-family: "Overpass", sans-serif;
+  font-family: GT-America, sans-serif;
   font-weight: 300;
   text-decoration: none;
 }
@@ -43,7 +48,8 @@
 .header-list li .time-paragraph #time,
 .header-list li .time-paragraph #date {
   font-size: 15px;
-  font-family: "Overpass", sans-serif;
+  padding-right: 10px;
+  font-family: GT-America, sans-serif;
   line-height: 16, 98px;
   color: white;
 }

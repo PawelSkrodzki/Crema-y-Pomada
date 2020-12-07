@@ -12,7 +12,7 @@ showTime = () =>{
     const day = today.getDate()
     const month = today.getMonth() + 1
 
-    clockSpan.innerHTML = `${hours}:${minutes}    `
+    clockSpan.innerHTML = `${hours}:${minutes}`
     dateSpan.innerHTML = `${day}.${month}`
 }
 setInterval(showTime, 1000)
