@@ -18,11 +18,4 @@ showTime = () =>{
 setInterval(showTime, 1000)
 
 
-const scroll = new Scrooth({
-  element: window,
-  strength: 11,
-  acceleration: 1.5,
-  deceleration: 0.975,
-});
-
 
