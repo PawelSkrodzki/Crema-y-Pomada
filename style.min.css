@@ -61,17 +61,22 @@
   width: 100%;
 }
 
-.central-photo {
+.central-photo1,
+.central-photo2,
+.central-photo3 {
   position: absolute;
   left: 50%;
   bottom: -50vh;
   -webkit-transform: translate(-50%, 50%);
           transform: translate(-50%, 50%);
   width: 124px;
+  visibility: hidden;
 }
 
 @media (min-width: 768px) {
-  .central-photo {
+  .central-photo1,
+  .central-photo2,
+  .central-photo3 {
     width: 230px;
   }
 }
@@ -87,7 +92,9 @@
   .header-list li:not(:first-child) {
     padding-left: 75px;
   }
-  .central-photo {
+  .central-photo1,
+  .central-photo2,
+  .central-photo3 {
     bottom: -45vh;
   }
 }
